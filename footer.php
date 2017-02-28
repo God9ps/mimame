@@ -1,21 +1,35 @@
 
 
-<script type="text/javascript" src="js/jQuery.1.11.3.js"></script>
+<!-- Footer-->
+<div class="footer">
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <div class="container clearfix">
 
-<script type="text/javascript" src="js/migrate.js"></script>
+        <ul class="contactus">
+            <li><span class="mail">Email: ana.s.m.garcia.83@gmail.com</span></li>
+            <li><span class="phone">Phone: +351 96 395 86 84</span></li>
+        </ul>
 
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <div class="footer-social"><a href="http://facebook.com/" target="_blank"><img src="images/footer_facebook.png" alt=""></a></div>
+        <div class="footer-social"><a href="http://twitter.com/" target="_blank"><img src="images/footer_twitter.png" alt=""></a></div>
+        <div class="footer-social"><a href="http://google.com/" target="_blank"><img src="images/footer_google.png" alt=""></a></div>
+        <div class="footer-social"><a href="http://linkedin.com/" target="_blank"><img src="images/footer_linkedin.png" alt=""></a></div>
+        <div class="footer-social"><a href="http://dribble.com/" target="_blank"><img src="images/footer_dribble.png" alt=""></a></div>
+        <div class="footer-social"><a href="http://pinterest.com/" target="_blank"><img src="images/footer_pinterest.png" alt=""></a></div>
+        <div class="footer-social"><a href="#" target="_blank"><img src="images/footer_rss.png" alt=""></a></div>
 
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+        <div class="copyright">
+            <p>&copy; 2103 Eleven Media. All Rights Reserved.</p>
+        </div>
 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    </div>
 
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
+</div>
+<!--/Footer-->
 
-<script type="text/javascript" src="js/audioplayer.js"></script>
 
-<script type="text/javascript" src="js/custom-script.js"></script>
+
+
+
 </body>
 </html>

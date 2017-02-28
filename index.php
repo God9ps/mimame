@@ -1,972 +1,806 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+include_once "header.php";
 
-    <title>MIMAME by Ana Garcia</title>
+include_once "destaques.php";
 
-    <link rel="stylesheet" href="css/custom.css" type="text/css">
+include_once "menu.php";
+?>
 
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
-    <link rel="stylesheet" href="css/theme-color.css" type="text/css">
 
-    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    <!-- About Us-->
+    <div id="aboutus">
 
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
 
-    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css">
+        <!-- Container-->
+        <div class="container clearfix">
 
-    <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+            <h1 class="color mb">About Us</h1>
 
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+            <p class="big-paragraph">Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.</p>
 
-    <link rel="stylesheet" href="css/icomoon.css" type="text/css">
 
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic'
-          rel='stylesheet' type='text/css'>
+            <br><br><br>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600italic,600,700,700italic,300italic,300,400italic'
-          rel='stylesheet' type='text/css'>
 
-    <script src="js/html5shiv.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/custom.css">
-</head>
-<body class="big-salon">
+            <div class="one_third">
 
-<div id="wrapper">
+                <h3 class="black mb">Our skills</h3>
 
-    <header id="cp_header">
 
-        <section class="cp_navigation-row">
-            <div class="container">
+                <div class="meter">
+                    <div style="width:75%"><p class="white">Web Design ( 75% )</p></div>
+                </div>
 
-                <div class="cp-nav-holder">
 
-                    <strong class="cp-logo">
-                        <a href="#">
-                            <em>Hair Sloution</em>
-                            ig <span>Salon</span>
-                        </a>
-                    </strong>
+                <div class="meter">
+                    <div style="width:60%"><p class="white">Web Development ( 60% )</p></div>
+                </div>
 
-                    <nav class="navbar navbar-inverse">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                    data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span
-                                    class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                                    class="icon-bar"></span> <span class="icon-bar"></span></button>
-                        </div>
-                        <div id="navbar" class="collapse navbar-collapse">
-                            <ul id="nav" class="navbar-nav">
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Home <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="index.html">Default Home</a></li>
-                                        <li><a href="index-barber-shop.html">Barber Shop</a></li>
-                                        <li><a href="index-nail.html">Nail Salon</a></li>
-                                        <li><a href="index-spa.html">Spa</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Events <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="events-detail.html">Events detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Pages <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="services.html">Services</a></li>
-                                        <li>
-                                            <a href="#">Gallery </a>
-                                            <ul>
-                                                <li><a href="gallery-1-col.html">1 Column</a></li>
-                                                <li><a href="gallery-2-col.html">2 Column</a></li>
-                                                <li><a href="gallery-3-col.html">3 Column</a></li>
-                                                <li><a href="gallery-4-col.html">4 Column</a></li>
-                                                <li><a href="gallery-full.html">Full Gallery</a></li>
-                                                <li><a href="gallery-masonary.html">Masonary Gallery</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="team.html">Out Staff</a></li>
-                                        <li><a href="#">Comming Soon</a>
-                                            <ul>
-                                                <li><a href="coming-soon1.html">Coming Soon 1</a></li>
-                                                <li><a href="coming-soon2.html">Coming Soon 2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">404</a>
-                                            <ul>
-                                                <li><a href="p404-1.html">404-1</a></li>
-                                                <li><a href="p404-2.html">404-2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="faq.html">Faqs</a></li>
-                                        <li><a href="pricing-table.html">Pricing Table</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Shop <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Product</a>
-                                            <ul>
-                                                <li><a href="product.html">Product</a></li>
-                                                <li><a href="product-detail.html">Products Detail</a></li>
-                                                <li><a href="product-sidebar.html">Products with Sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="login.html">My Account</a></li>
-                                        <li><a href="reservation.html">Reservation</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Blog <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-detail.html">Blog detail</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                                                        role="button" aria-expanded="false">Contact <span
-                                            class="caret"></span></a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="contact2.html">Contact 2</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
+
+                <div class="meter">
+                    <div style="width:85%"><p class="white">Brand Identity ( 85% )</p></div>
+                </div>
+
+            </div>
+
+            <div class="two_third last">
+
+                <h3 class="black mb">Who we are</h3>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus.<br><br>
+
+                    Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet</p>
+
+            </div>
+
+        </div>
+        <!--/Container-->
+
+        <!-- Our Team-->
+        <div class="ourteam">
+
+            <!-- Container-->
+            <div class="container clearfix">
+
+                <h1 class="color mb">Meet Our Team</h1>
+
+
+                <br><br>
+
+
+                <!--Team 1-->
+                <div class="team">
+
+                    <img class="user" src="images/team1.png" alt="">
+
+                    <div class="team-overlay">
+
+                        <h5 class="black">Lisa Taylor</h5>
+                        <p class="team-function">Creative Director</p>
+
+                        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas  tempor quis elementum consectetur adipiscing elit.</p>
+
+                        <div class="team-social"><a href="http://facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://google.com/" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://linkedin.com/" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
+
+                    </div>
+
+                </div>
+                <!--/Team 1-->
+
+
+                <!--Team 2-->
+                <div class="team">
+
+                    <img class="user" src="images/team2.png" alt="">
+
+                    <div class="team-overlay">
+
+                        <h5 class="black">Whitney Alison</h5>
+                        <p class="team-function">Designer</p>
+
+                        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas  tempor quis elementum consectetur adipiscing elit.</p>
+
+                        <div class="team-social"><a href="http://facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://google.com/" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://linkedin.com/" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
+
+                    </div>
+
+                </div>
+                <!--/Team 2-->
+
+
+                <!--Team 3-->
+                <div class="team">
+
+                    <img class="user" src="images/team3.png" alt="">
+
+                    <div class="team-overlay">
+
+                        <h5 class="black">Monica Preston</h5>
+                        <p class="team-function">Photographer</p>
+
+                        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas  tempor quis elementum consectetur adipiscing elit.</p>
+
+                        <div class="team-social"><a href="http://facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://google.com/" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://linkedin.com/" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
+
+                    </div>
+
+                </div>
+                <!--/Team 3-->
+
+
+                <!--Team 4-->
+                <div class="team last">
+
+                    <img class="user" src="images/team4.png" alt="">
+
+                    <div class="team-overlay">
+
+                        <h5 class="black">Jennifer Smith</h5>
+                        <p class="team-function">Project Manager</p>
+
+                        <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas  tempor quis elementum consectetur adipiscing elit.</p>
+
+                        <div class="team-social"><a href="http://facebook.com/" target="_blank"><img src="images/icon_facebook.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://twitter.com/" target="_blank"><img src="images/icon_twitter.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://google.com/" target="_blank"><img src="images/icon_google.png" alt=""></a></div>
+                        <div class="team-social"><a href="http://linkedin.com/" target="_blank"><img src="images/icon_linkedin.png" alt=""></a></div>
+
+                    </div>
+
+                </div>
+                <!--/Team 4-->
+
+            </div>
+            <!--/Container-->
+
+        </div><!--/Our Team-->
+
+
+    </div><!--/About Us-->
+
+
+    <!-- Separator1-->
+    <div id="separator1">
+
+        <div class="pattern"></div>
+        <div class="separator1-bg"></div>
+
+        <div class="container">
+
+            <h3 class="white center">You can add</h3>
+            <p style="text-align:center">text or html tags on each separators, or just simply remove it where you want</p>
+
+        </div>
+
+    </div>
+    <!--/Separator1-->
+
+
+    <!-- Our Services-->
+    <div id="ourservices">
+
+        <!-- Container-->
+        <div class="container clearfix">
+
+            <h1 class="color mb">Our Services</h1>
+
+            <p class="big-paragraph">Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat
+                a telus.</p>
+
+
+            <br><br><br><br>
+
+            <!-- Discover the idea-->
+            <div class="two_fourth">
+
+                <div class="heading-and-icon"><img width="60" height="60" src="images/modern.png" alt=""><h3 class="black mb">Discover the idea</h3></div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas non tempor quis elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi.
+                    In a elit sed velit placerat.</p>
+                <a class="btn-small" href="#">View Details</a>
+
+                <br><br><br><br>
+
+            </div>
+            <!--/Discover the idea-->
+
+            <!-- Create project-->
+            <div class="two_fourth last">
+
+                <div class="heading-and-icon"><img width="60" height="60" src="images/create.png" alt=""><h3 class="black mb">Create project</h3></div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas non tempor quis elementum quis dui. Aliquam erat volutpat.
+                    In sit amet lectus nisi. In a elit sed velit placerat.</p>
+                <a class="btn-small" href="#">View Details</a>
+
+                <br><br><br><br>
+
+            </div>
+            <!--/Create project-->
+
+            <!-- Client Delivering-->
+            <div class="two_fourth">
+
+                <div class="heading-and-icon"><img width="60" height="60" src="images/delivering.png" alt=""><h3 class="black mb">Client Delivering</h3></div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas non tempor quis elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi.
+                    In a elit sed velit placerat.</p>
+                <a class="btn-small" href="#">View Details</a>
+
+            </div>
+            <!--/Client Delivering-->
+
+            <!-- Online Support-->
+            <div class="two_fourth last">
+
+                <div class="heading-and-icon"><img width="60" height="60" src="images/support.png" alt=""><h3 class="black mb">Online Support</h3></div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam egestas non tempor quis elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi.
+                    In a elit sed velit placerat.</p>
+                <a class="btn-small" href="#">View Details</a>
+
+
+            </div>
+            <!--/Online Support-->
+
+
+        </div>
+        <!--/Container-->
+
+        <!-- Newsletter-->
+        <div class="newsletter">
+
+            <div class="container clearfix">
+
+                <h3 class="white newsletter">Our newsletter:</h3>
+
+                <form id="newsletter" method="post">
+                    <input type="text" onfocus="if(this.value == 'E-mail here') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail here'; }" value="E-mail here" class="newsletter-email">
+                    <input type="text" onfocus="if(this.value == 'Your name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your name'; }" value="Your name" class="newsletter-name">
+                    <button type="submit" class="newsletter-sent">Submit</button>
+                </form>
+
+            </div>
+
+        </div>
+        <!--/Newsletter-->
+
+    </div><!--/Our Services-->
+
+
+    <!-- Separator2-->
+    <div id="separator2">
+
+        <div class="pattern"></div>
+        <div class="separator2-bg"></div>
+
+        <div class="container">
+            <h3 class="white center">You can add</h3>
+            <p class="white" style="text-align:center">text or html tags on each separators, or just simply remove it where you want</p>
+        </div>
+
+    </div>
+    <!--/Separator2-->
+
+
+    <!-- Portfolio-->
+    <div id="portfolio">
+
+        <!-- Portfolio Filters-->
+        <div class="projects-filters">
+
+            <!-- Container-->
+            <div class="container clearfix">
+
+                <h1 class="white left">Portfolio</h1>
+
+                <!-- Filters-->
+                <div id="filters">
+                    <nav class="primary">
+                        <ul>
+                            <li><a href="" class="active" data-filter="*">All Projects</a></li>
+                            <li><a href="" data-filter=".cat1">Web Design</a></li>
+                            <li><a href="" data-filter=".cat2">Photography</a></li>
+                            <li><a href="" data-filter=".cat3">Branding</a></li>
+                        </ul>
                     </nav>
                 </div>
+                <!--/Filters-->
 
             </div>
+            <!--/Container-->
 
-            <div class="cp-right-holder">
-                <ul>
-                    <li class="cp_search-bar">
-                        <i class="fa fa-search"></i>
-                        <div class="cp-inner-search-bar">
-                            <form method="get">
-                                <input type="text" placeholder="Enter Your Email">
-                                <input type="submit" value="Search">
-                            </form>
-                        </div>
-                    </li>
-                    <li class="cp-language-bar">
-                        <div class="dropdown">
-                            <button aria-expanded="true" data-toggle="dropdown" id="dropdownMenu2" type="button">
-                                English <span class="caret"></span></button>
-                            <ul role="menu" class="dropdown-menu">
-                                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">French</a></li>
-                                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Spanish</a></li>
-                                <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Chinese</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="cp-online-booking"><a href="#">Online booking</a></li>
-                    <li class="cp_cart-bar">
-                        <i class="fa fa-shopping-cart"></i>
-                        <div class="cp-cart-inner-bar">
-                            <ul>
-                                <li><a href="#">Product 1</a></li>
-                                <li><a href="#">Product 2</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-        </section>
-
-    </header>
-
-
-    <div class="cp_banner">
-        <div id="cp_banner-slider" class="owl-carousel">
-            <div class="item">
-                <img src="images/banner/banner-img-01.jpg" alt="">
-                <div class="container">
-
-                    <div class="banner-caption">
-                        <em>Unhas de Gel</em>
-                        <h1>Práticas, bonitas, duradouras... Como e porquê usar?</h1>
-                        <a href="#" class="cp-btn-checkout">Ler mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/banner/banner-img-02.jpg" alt="">
-                <div class="container">
-
-                    <div class="banner-caption">
-                        <em>Gelinho</em>
-                        <h1>Vantagens e desvantagens. Cuidados e dicas. </h1>
-                        <a href="#" class="cp-btn-checkout">Ler mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="images/banner/banner-img-03.jpg" alt="">
-                <div class="container">
-
-                    <div class="banner-caption">
-                        <em>Microblanding</em>
-                        <h1>Lots of great hair tips and tricks that you probably don't know about! </h1>
-                        <a href="#" class="cp-btn-checkout">Ler mais</a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
+        <!--/Portfolio Filters-->
 
+        <!-- Portfolio List-->
+        <ul class="portfolio">
 
-    <div class="cp_main">
-
-        <section class="cp_about-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>Quem somos</h2>
+            <li class="view cat3 cat1">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/1_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-                <div id="cp_about-slider" class="owl-carousel">
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="cp-thumb">
-                                    <img src="images/about/about-img-01.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-text">
-                                    <h3>O nosso espaço</h3>
-                                    <p>Mellentesque habitant morbi tristique senectus et netus et malesuada famesac
-                                        turpis egestas Mellentesque habitant morbi tristique senectus et netus et
-                                        malesuada famesac turpis egestas.Mellentesque habitant morbi tristique et
-                                        malesuada famesac turpis egestas habitant morbi tristique senectus et netus et
-                                        malesuada famesac turpis egestas.</p>
-                                    <div class="bottom-holder">
-                                        <div class="inner">
-                                            <p>Tapora veritatis in cumque quia conseqae sint porro rerum voluptas ipsum
-                                                vitae neque quae. Voluptatibus, eligendi veritatis in cumque quia
-                                                conseqae sint porro rerum voluptas ipsum.</p>
-                                            <em>I love the confidence that MAKEUP gives me.<span>-Tyra Banks</span></em>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            </li>
+
+            <li class="view cat1 cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/2_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="cp-thumb">
-                                    <img src="images/about/about-img-02.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-text">
-                                    <h3>Os nossos serviços</h3>
-                                    <p>Senectus et netus et malesuada famesac turpis egestas Mellentesque habitant morbi
-                                        tristique senectus et netus et malesuada famesac turpis egestas.Mellentesque
-                                        habitant morbi tristique et malesuada famesac turpis egestas habitant morbi
-                                        tristique senectus et netus et malesuada famesac turpis egestas Mellentesque
-                                        habitant morbi tristique s.</p>
-                                    <div class="bottom-holder">
-                                        <div class="inner">
-                                            <p>Tapora veritatis in cumque quia conseqae sint porro rerum voluptas ipsum
-                                                vitae neque quae. Voluptatibus, eligendi veritatis in cumque quia
-                                                conseqae sint porro rerum voluptas ipsum.</p>
-                                            <em>I love the confidence that MAKEUP gives me.<span>-Tyra Banks</span></em>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>
+            </li>
 
-
-        <section class="cp_promotion-section pd-b80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>Promoções</h2>
+            <li class="view cat2 cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/4_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
+            </li>
 
-                        <div class="promotion-item">
-                            <div class="text">
-                                <h3><a href="product-detail.html">1ª semana do mês </a></h3>
-                                <p>Todos os meses, na sua primeira semana, a MIMAME disponibiliza <b>10</b> <a href="#premium">Pack Premium</a> por apenas 60€.</p>
-                                <span class="item-discount"><b>15€</b>Desconto</span>
-                            </div>
-                            <div class="thumb">
-                                <img src="images/promotion-img-01.jpg" alt="">
-                            </div>
+            <li class="view cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/3_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-
-                        <div class="promotion-item">
-                            <div class="text">
-                                <h3><a href="product-detail.html">Exclusivo lojistas </a></h3>
-                                <p>A MIMAME orgulha-se de manter uma relação proxima com o comercio da nossa cidade, assim, oferecemos às colaboradoras
-                                do comercio descontos nos nossos serviços de Gel e Gelinho.</p>
-                                <span class="item-discount"><b>5€</b>Desconto</span>
-                            </div>
-                            <div class="thumb">
-                                <img src="images/promotion-img-02.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>
+            </li>
 
-<!--
-        <section class="cp_rates-section pd-b80">
-            <div class="container">
-                <div class="rates-holder">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="text-holder left">
-                                <div class="info-hold">
-                                    <h4>Woman’s Haircut</h4>
-                                    <span><b>$40</b>First Length</span>
-                                </div>
-                                <div class="info-hold">
-                                    <h4>Woman’s Haircut</h4>
-                                    <span><b>$60</b>Second Length</span>
-                                </div>
-                            </div>
+            <li class=" view cat1 cat2">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/5_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="text-holder right">
-                                <div class="info-hold">
-                                    <h4>Woman’s Haircut</h4>
-                                    <span><b>$70</b>Third Length</span>
-                                </div>
-                                <div class="info-hold">
-                                    <h4>Woman’s Haircut</h4>
-                                    <span><b>$90</b>Fourth Length</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-                <div class="bottom">
-                    <p>Mellentesque habitant morbi tristique senectus et netus et malesuada famesac turpis egestas
-                        Mellentesque habitant morbi tristique senectus et netus et malesuada famesac turpis egestas.
-                        Mellentesque habitant morbi tristique et malesuada famesac turpis egestas habitant morbi
-                        tristique senectus et netus et malesuada famesac turpis egestas.</p>
-                    <a href="services.html" class="cp-btn-style1">More Services</a>
+            </li>
+
+            <li class="view cat2 cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/6_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-            </div>
-        </section>-->
+            </li>
 
-
-        <section class="cp_our-services-section pd-t80">
-            <div class="container">
-                <div class="cp-heding-style2">
-                    <h2>Serviços</h2>
+            <li class=" view cat1 cat2">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/7_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
+            </li>
 
-                        <div class="services-item">
-                            <img src="images/services/services-item-img-01.jpg" alt="">
-                            <div class="services-caption">
-                                <h3>Microblanding</h3>
-                                <span class="cp_linebar-style"></span>
-                                <span class="icon-scissors30 icomoon"></span>
-                                <a href="services.html" class="read-more cp-btn-style2">Ler mais</a>
-                            </div>
+            <li class=" view cat1 cat2">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/8_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="services-item">
-                            <img src="images/services/services-item-img-02.jpg" alt="">
-                            <div class="services-caption">
-                                <h3>Limpeza de rosto</h3>
-                                <span class="cp_linebar-style"></span>
-                                <span class="icon-chair8 icomoon"></span>
-                                <a href="services.html" class="read-more cp-btn-style2">Ler mais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="services-item">
-                            <img src="images/services/services-item-img-03.jpg" alt="">
-                            <div class="services-caption">
-                                <h3>Make UP</h3>
-                                <span class="cp_linebar-style"></span>
-                                <span class="icon-cup29 icomoon"></span>
-                                <a href="services.html" class="read-more cp-btn-style2">Ler mais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="services-item">
-                            <img src="images/services/services-item-img-01.jpg" alt="">
-                            <div class="services-caption">
-                                <h3>Manicure</h3>
-                                <span class="cp_linebar-style"></span>
-                                <span class="icon-finger3 icomoon"></span>
-                                <a href="services.html" class="read-more cp-btn-style2">Ler mais</a>
-                            </div>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>
+            </li>
 
-<!--
-        <section class="cp_equipment-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>Our Equipment</h2>
+            <li class="view cat2 cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/9_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="row pretty-gallery">
-                    <div class="col-md-3 col-sm-6">
+            </li>
 
-                        <div class="box-item">
-                            <div class="cp-thumb">
-                                <img src="images/equipment-img-01.png" alt="">
-                                <a href="images/equipment-img-01.png" class="zooming-holder" data-rel="prettyPhoto"><i
-                                        class="fa fa-search"></i></a>
-                            </div>
-                            <h3>Black Beauty Salon</h3>
-                            <span>Styling Sofa</span>
+            <li class="view cat3 cat1">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/10_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="box-item">
-                            <div class="cp-thumb">
-                                <img src="images/equipment-img-02.png" alt="">
-                                <a href="images/equipment-img-02.png" class="zooming-holder" data-rel="prettyPhoto"><i
-                                        class="fa fa-search"></i></a>
-                            </div>
-                            <h3>Haircutting Cover</h3>
-                            <span>Styling Gown</span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="box-item">
-                            <div class="cp-thumb">
-                                <img src="images/equipment-img-03.png" alt="">
-                                <a href="images/equipment-img-03.png" class="zooming-holder" data-rel="prettyPhoto"><i
-                                        class="fa fa-search"></i></a>
-                            </div>
-                            <h3>Black Beauty Salon</h3>
-                            <span>Styling Chair</span>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="box-item">
-                            <div class="cp-thumb">
-                                <img src="images/equipment-img-04.png" alt="">
-                                <a href="images/equipment-img-04.png" class="zooming-holder" data-rel="prettyPhoto"><i
-                                        class="fa fa-search"></i></a>
-                            </div>
-                            <h3>Brushes Holder</h3>
-                            <span>For Salon</span>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>-->
+            </li>
 
-
-        <section class="cp_our-parallax-section pd-tb80" id="premium">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="left-holder">
-                            <h3>MIMAME Premium</h3>
-                            <strong>Um dia só teu por apenas <b class="red">75€</b></strong>
-
-                            <a href="#" class="buy-now cp-btn-style1">Marcação</a>
+            <li class="view cat3 cat2">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/11_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
                         </div>
-                    </div>
-                    <div class="col-md-7">
-                        <div class="right-holder">
-                            <ul>
-                                <li>Limpeza de rosto</li>
-                                <li>Depilação</li>
-                                <li>Design de sobrancelha</li>
-                                <li>Pedicure</li>
-                                <li>Unhas de Gel</li>
-                                <li>Make Up</li>
-                                <li>Massagem Relaxante</li>
-
-                            </ul>
-                        </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
-        </section>
+            </li>
 
-
-        <section class="cp_blog-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>Ultimos posts no blog</h2>
+            <li class="view cat1 cat3">
+                <div class="view">
+                    <a class="group1" href="project.htm" title="Portfolio"><img src="images/portfolio/12_thumb.jpg" alt="">
+                        <div class="mask">
+                            <h5>Nullam dictum felis eu mollis</h5>
+                            <p>wedding / portrait</p>
+                        </div>
+                    </a>
                 </div>
-                <ul class="pretty-gallery">
-                    <li class="blog-holder">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="cp-thumb">
-                                    <img src="images/blog/blog-md-img-01.jpg" alt="">
-                                    <a href="images/blog/blog-md-img-01.jpg" class="zooming-holder"
-                                       data-rel="prettyPhoto"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-holder">
-                                    <div class="top">
-                                        <img src="images/blog/blog-extra-small-img.jpg" alt="">
-                                        <h3>Pretty smoky eyes tutorial</h3>
-                                        <ul class="cp-listed">
-                                            <li><i class="fa fa-tag"></i>Makeup</li>
-                                            <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                        </ul>
-                                    </div>
-                                    <em><span>Written by</span> Natasha <span>on</span> 8th March 2015</em>
-                                    <p>Mellentesque habitant morbi tristique senectus et netus et malesuada famesac
-                                        turpis egestas Mellentesque habitant morbi tristique senectus et netus et
-                                        malesuada famesac turpis egestas.esuada famesac turpis egestas.</p>
-                                    <a href="blog-detail.html" class="cp-btn-style2">Ler mais</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+            </li>
 
-                    <li class="blog-holder">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="cp-thumb">
-                                    <img src="images/blog/blog-md-img-02.jpg" alt="">
-                                    <a href="images/blog/blog-md-img-02.jpg" class="zooming-holder"
-                                       data-rel="prettyPhoto"><i class="fa fa-search"></i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="text-holder">
-                                    <div class="top">
-                                        <img src="images/blog/blog-extra-small-img.jpg" alt="">
-                                        <h3>Layered Bangs Hairstyles</h3>
-                                        <ul class="cp-listed">
-                                            <li><i class="fa fa-tag"></i>Makeup</li>
-                                            <li><i class="fa fa-user"></i><a href="#">Admin</a></li>
-                                        </ul>
-                                    </div>
-                                    <em><span>Written by</span> Natasha <span>on</span> 10th July 2015</em>
-                                    <p>Habitant morbi tristique senectus et netus et malesuada famesac turpis
-                                        egestas.Mellentesque habitant morbi tristique et malesuada famesac turpis
-                                        egestas habitant morbi tristique.</p>
-                                    <a href="blog-detail.html" class="cp-btn-style2">Ler mais</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        </ul>
+        <!--/Portfolio List-->
+
+        <!-- Testimonials-->
+        <div id="testimonials">
 
 
-        <section class="cp_pricing-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style2">
-                    <h2>Preços</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm">
+            <!-- Container-->
+            <div class="container clearfix">
 
-                        <div class="pricing-item">
-                            <div class="cp-thumb">
-                                <img src="images/pricing/price-img-01.jpg" alt="">
-                            </div>
-                            <div class="pricing-text">
-                                <span class="price">20€</span>
-                                <a href="#" class="btn-hair-service">Massagens</a>
-                                <ul class="price-list">
-                                    <li> Haircut</li>
-                                    <li> Colour</li>
-                                    <li> Treatments</li>
-                                    <li>The Finish</li>
-                                    <li> Treatments</li>
-                                    <li> Haircut</li>
-                                    <li> The Finish</li>
-                                    <li><a href="#" class="cp-btn-style2">Marcar</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm">
-
-                        <div class="pricing-item">
-                            <div class="cp-thumb">
-                                <img src="images/pricing/price-img-02.jpg" alt="">
-                            </div>
-                            <div class="pricing-text">
-                                <span class="price">15€</span>
-                                <a href="#" class="btn-hair-service">Manicure e Pedicure</a>
-                                <ul class="price-list">
-                                    <li> Haircut</li>
-                                    <li> Colour</li>
-                                    <li> Treatments</li>
-                                    <li>The Finish</li>
-                                    <li> Treatments</li>
-                                    <li> Haircut</li>
-                                    <li> The Finish</li>
-                                    <li><a href="#" class="cp-btn-style2">Marcar</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm">
-
-                        <div class="pricing-item">
-                            <div class="cp-thumb">
-                                <img src="images/pricing/price-img-03.jpg" alt="">
-                            </div>
-                            <div class="pricing-text">
-                                <span class="price">80€</span>
-                                <a href="#" class="btn-hair-service">Microblanding</a>
-                                <ul class="price-list">
-                                    <li> Haircut</li>
-                                    <li> Colour</li>
-                                    <li> Treatments</li>
-                                    <li>The Finish</li>
-                                    <li> Treatments</li>
-                                    <li> Haircut</li>
-                                    <li> The Finish</li>
-                                    <li><a href="#" class="cp-btn-style2">Marcar</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm">
-
-                        <div class="pricing-item">
-                            <div class="cp-thumb">
-                                <img src="images/pricing/price-img-04.jpg" alt="">
-                            </div>
-                            <div class="pricing-text">
-                                <span class="price">25€</span>
-                                <a href="#" class="btn-hair-service">Unhas de Gel</a>
-                                <ul class="price-list">
-                                    <li> Haircut</li>
-                                    <li> Colour</li>
-                                    <li> Treatments</li>
-                                    <li>The Finish</li>
-                                    <li> Treatments</li>
-                                    <li> Haircut</li>
-                                    <li> The Finish</li>
-                                    <li><a href="#" class="cp-btn-style2">Marcar</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                <!-- Testimonials Carousel-->
+                <div class="carousel_testimonials">
 
 
-        <section class="cp_our-team-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>A nossa equipa</h2>
-                </div>
-                <div class="row">
-                    <!--<div class="col-md-3 col-sm-6">
+                    <!-- Testimonials List-->
+                    <ul id="testimonials-carousel">
 
-                        <div class="team-item">
-                            <figure class="cp-thumb">
-                                <img src="images/team/team-img-01.jpg" alt="">
-                                <figcaption class="caption">
-                                    <ul class="cp-social-list">
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                            <div class="team-text">
-                                <h3><a href="#">Eliza Cedric</a></h3>
-                                <span>Make up Artist</span>
-                            </div>
-                        </div>
-                    </div>-->
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="team-item">
-                            <figure class="cp-thumb">
-                                <img src="images/team/team-img-02.jpg" alt="">
-                                <figcaption class="caption">
-                                    <ul class="cp-social-list">
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                            <div class="team-text">
-                                <h3><a href="#">Joana Martins</a></h3>
-                                <span>Make Up</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="team-item">
-                            <figure class="cp-thumb">
-                                <img src="images/team/team-img-03.jpg" alt="">
-                                <figcaption class="caption">
-                                    <ul class="cp-social-list">
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                            <div class="team-text">
-                                <h3><a href="#">Monica Menezes</a></h3>
-                                <span>Pedicure, corpo e massagem</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-
-                        <div class="team-item">
-                            <figure class="cp-thumb">
-                                <img src="images/team/team-img-04.jpg" alt="">
-                                <figcaption class="caption">
-                                    <ul class="cp-social-list">
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    </ul>
-                                </figcaption>
-                            </figure>
-                            <div class="team-text">
-                                <h3><a href="#">Ana Garcia</a></h3>
-                                <span>Manicura, Gel e Pele</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="cp_achievement-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style2">
-                    <h2>Os nossos certificados</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="achievement-item">
-                            <img src="images/achivement-img-01.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="achievement-item">
-                            <img src="images/achivement-img-01.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="achievement-item">
-                            <img src="images/achivement-img-01.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="cp_brands-section">
-            <div class="container-fluid">
-                <ul>
-                    <li><img src="images/brands/brands-img-01.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-02.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-03.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-02.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-01.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-04.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-05.jpg" alt=""></li>
-                    <li><img src="images/brands/brands-img-01.jpg" alt=""></li>
-                </ul>
-            </div>
-        </section>
-
-
-        <section class="cp_testimonial-section pd-tb80">
-            <div class="container">
-                <div class="cp-heding-style1">
-                    <h2>O que as nossas clientes dizem</h2>
-                </div>
-                <div class="testimonial-slider-holder">
-                    <ul class="bxslider" id="testimonial-slider">
                         <li>
-                            <div class="testimonial-holder">
-<span class="icon-holder">
-<i class="fa fa-quote-right"></i>
-</span>
-                                <p>Mellentesque habitant morbi tristique senectus et netus et malesuada famesac turpis
-                                    egestas Mellentesque habitant morbi tristique senectus et netus et malesuada famesac
-                                    turpis egestas.Mellentesque habitant morbi tristique et Mellentesque habitant morbi
-                                    tristique senectus et netus et malesuada famesac turpis egestas Mellentesque
-                                    habitant morbi tristique senectus et netus et malesuada famesac turpis egestas.</p>
-                                <strong class="name">“John Doe”</strong>
-                            </div>
+                            <h1 class="black mb">Lorem ipsum dolor sit amet consectetur adipiscing aliquam</h1>
+                            <h5>John Taylor - Company</h5>
                         </li>
+
                         <li>
-                            <div class="testimonial-holder">
-<span class="icon-holder">
-<i class="fa fa-quote-right"></i>
-</span>
-                                <p>Famesac turpis egestas Mellentesque habitant morbi tristique senectus et netus et
-                                    malesuada famesac turpis egestas.Mellentesque habitant morbi tristique et
-                                    Mellentesque habitant morbi tristique senectus et netus et malesuada famesac turpis
-                                    egestas Mellentesque habitant morbi tristique senectus et netus et malesuada famesac
-                                    turpis egestas Mellentesque habitant morbi tristique senectus et netus et malesuada
-                                    .</p>
-                                <strong class="name">“Britney Doe”</strong>
-                            </div>
+                            <h1 class="black mb">Lorem ipsum dolor sit amet consectetur adipiscing aliquam</h1>
+                            <h5>Brian Dillinger - Company</h5>
                         </li>
+
+
+                        <li>
+                            <h1 class="black mb">Lorem ipsum dolor sit amet consectetur adipiscing aliquam</h1>
+                            <h5>William Wayne - Company</h5>
+                        </li>
+
+                        <li>
+                            <h1 class="black mb">Lorem ipsum dolor sit amet consectetur adipiscing aliquam</h1>
+                            <h5>Lisa Harrison - Company</h5>
+                        </li>
+
                     </ul>
+                    <!--/Testimonials List-->
+
+                    <!-- Testimonials Pagination-->
+                    <a id="prev" class="t-prev" href="#"></a>
+                    <a id="next" class="t-next" href="#"></a>
+                    <!--/Testimonials Pagination-->
+
                 </div>
+                <!--/Testimonials Carousel-->
+
             </div>
-        </section>
+            <!--/Container-->
+
+        </div>
+        <!--/Testimonials-->
+
 
     </div>
+    <!--/Portfolio-->
 
 
-    <footer id="cp_footer">
+    <!-- Separator3-->
+    <div id="separator3">
 
-        <section class="cp_footer-section1">
-            <div class="container">
-                <h2>Marque a sua visita na MIMAME</h2>
-                <a href="#" class="cp-btn-style1 buy-now">Marcar agora</a>
-            </div>
-        </section>
+        <div class="pattern"></div>
 
 
-        <section class="cp_footer-section2 pd-tb80">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="ft-box-holder">
-                            <h3>Sobre nós</h3>
-                            <div class="about-box">
-                                <img src="images/ft-about-img.jpg" alt="">
-                                <p>Os nossos serviços primam pela atenção que damos às nossas clientes.
-                                A sua satisfação é a nossa prioridade.</p>
-                                <p>Mime-se, marque a sua visita</p>
+        <div class="separator3-bg"></div>
+
+        <div class="container clearfix">
+
+            <div class="client"><img src="images/client1.png" alt=""></div>
+
+            <div class="client"><img src="images/client2.png" alt=""></div>
+
+            <div class="client"><img src="images/client3.png" alt=""></div>
+
+            <div class="client"><img src="images/client4.png" alt=""></div>
+
+            <div class="client"><img src="images/client5.png" alt=""></div>
+
+            <div class="client"><img src="images/client6.png" alt=""></div>
+
+        </div>
+
+    </div>
+    <!--/Separator3-->
+
+
+    <!-- News-->
+    <div id="prices">
+
+
+        <!-- Container-->
+        <div class="container-news">
+
+            <h1>Stay tuned. Read our news</h1>
+
+            <!-- News Carousel-->
+            <div class="list_carousel">
+
+                <!-- News List-->
+                <ul id="news-carousel">
+
+                    <li>
+                        <div class="news">
+                            <img src="images/news1.jpg" alt="">
+                            <div class="mask">
+                                <a class="group1 icon zoom" href="news.htm" title="News"></a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="ft-box-holder">
-                            <h3>Contactos</h3>
-                            <ul class="ft-contact-us-list">
-                                <li><span>Tel :</span> +351 963 958 684</li>
-                                <li><span>Email :</span> <a href="#"><span class="__cf_email__"
-                                                                          data-cfemail="30595e565f7044555d405555431e535f5d">[email&#160;protected]</span>
-                                        <script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */
-                                            !function (t, e, r, n, c, a, p) {
-                                                try {
-                                                    t = document.currentScript || function () {
-                                                            for (t = document.getElementsByTagName('script'), e = t.length; e--;)if (t[e].getAttribute('data-cfhash'))return t[e]
-                                                        }();
-                                                    if (t && (c = t.previousSibling)) {
-                                                        p = t.parentNode;
-                                                        if (a = c.getAttribute('data-cfemail')) {
-                                                            for (e = '', r = '0x' + a.substr(0, 2) | 0, n = 2; a.length - n; n += 2)e += '%' + ('0' + ('0x' + a.substr(n, 2) ^ r).toString(16)).slice(-2);
-                                                            p.replaceChild(document.createTextNode(decodeURIComponent(e)), c)
-                                                        }
-                                                        p.removeChild(t)
-                                                    }
-                                                } catch (u) {
-                                                }
-                                            }();
-                                            /* ]]> */</script>
-                                    </a></li>
 
-                                <li><img src="images/card-logo.png" alt=""></li>
-                            </ul>
+                        <div class="news-intro">
+                            <a class="group1" href="news.htm" title="News"><h5>Marketplace License Update</h5></a>
+                            <p class="news-date">09/10/2013</p>
+                            <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
+                            <a class="btn-small group1" href="news.htm" title="News">View Details</a>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="ft-box-holder">
-                            <h3>Horários</h3>
-                            <p>Segunda a Sexta : 10h00 às 20h00</p>
-                            <p>Sábado : 10h00 às 14h00</p>
 
-                            <p>Em caso de urgências ou serviços extra entre em contacto connosco</p>
+                    </li>
+
+                    <li>
+                        <div class="news">
+                            <img src="images/news2.jpg" alt="">
+                            <div class="mask">
+                                <a class="group1 icon zoom" href="news.htm" title="News"></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="ft-box-holder">
-                            <h3>Mini Galeria</h3>
-                            <ul class="cp_flicker-list">
-                                <li><a href="#"><img src="images/flickr/flickr-img-01.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-02.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-03.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-04.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-05.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-06.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-07.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-08.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-09.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-10.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-11.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="images/flickr/flickr-img-12.jpg" alt=""></a></li>
-                            </ul>
+
+                        <div class="news-intro">
+                            <a class="group1" href="news.htm" title="News"><h5>Do You Have Some Great Photo Tips</h5></a>
+                            <p class="news-date">09/10/2013</p>
+                            <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
+                            <a class="btn-small group1" href="news.htm" title="News">View Details</a>
                         </div>
-                    </div>
+
+                    </li>
+
+                    <li>
+                        <div class="news">
+                            <img src="images/news3.jpg" alt="">
+                            <div class="mask">
+                                <a class="group1 icon zoom" href="news.htm" title="News"></a>
+                            </div>
+                        </div>
+
+                        <div class="news-intro">
+                            <a class="group1" href="news.htm" title="News"><h5>Outstanding New Marketplace Items</h5></a>
+                            <p class="news-date">09/10/2013</p>
+                            <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
+                            <a class="btn-small group1" href="news.htm" title="News">View Details</a>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="news">
+                            <img src="images/news4.jpg" alt="">
+                            <div class="mask">
+                                <a class="group1 icon zoom" href="news.htm" title="News"></a>
+                            </div>
+                        </div>
+
+                        <div class="news-intro">
+                            <a class="group1" href="news.htm" title="News"><h5>Envato's Most Wanted Winners</h5></a>
+                            <p class="news-date">09/10/2013</p>
+                            <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
+                            <a class="btn-small group1" href="news.htm" title="News">View Details</a>
+                        </div>
+
+                    </li>
+
+                    <li>
+                        <div class="news">
+                            <img src="images/news5.jpg" alt="">
+                            <div class="mask">
+                                <a class="group1 icon zoom" href="news.htm" title="News"></a>
+                            </div>
+                        </div>
+
+                        <div class="news-intro">
+                            <a class="group1" href="news.htm" title="News"><h5>Featured Collection</h5></a>
+                            <p class="news-date">09/10/2013</p>
+                            <p>FlexSlider hosts many features, and there's a chance you'll find yourself needing to read up on a few of them. Below is aowed by detailed information and tips regarding each property.</p>
+                            <a class="btn-small group1" href="news.htm" title="News">View Details</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+                <!--/News List-->
+
+                <!-- News Navigation-->
+                <div id="news-navigation">
+                    <a id="prev2" class="prev" href="#"></a>
+                    <a id="next2" class="next" href="#"></a>
                 </div>
+                <!-- News Navigation-->
+
+
             </div>
-        </section>
+            <!--/News Carousel-->
 
 
-        <section class="cp_footer-section3">
+        </div>
+        <!--/Container-->
+
+        <!-- Twitter-->
+        <div class="twitter">
+
             <div class="container">
-                <div class="footer-logo">
-                    <a href="#"><img src="images/logo3.png" alt=""></a>
-                </div>
-                <strong>© 2017 - Powered by Paulo Serrano</strong>
-                <div class="cp_back-top-holder">
-<span id="cp_back-top">
-<a href=""><i class="fa fa-angle-up"></i></a>
-</span>
-                </div>
+
+                <div class="twitter-image"><img src="images/twitter.png" alt=""></div>
+
+                <h2>"Lorem ipsum dolor sit amet consectetur adipiscing aliquam est lectus mattis in sodales congue"</h2>
+
+                <p class="white">@Eleven - November 13th, 2013</p>
+
             </div>
-        </section>
 
-    </footer>
+        </div>
+        <!--/Twitter-->
 
-</div>
-<?php include_once "footer.php";
+    </div>
+    <!--/News-->
+
+
+
+    <!--/Separator4-->
+    <div id="separator4">
+
+        <div class="pattern"></div>
+
+        <div class="separator4-bg"></div>
+
+    </div>
+    <!--/Separator4-->
+
+
+    <!-- Contact-->
+    <div id="contact">
+
+        <!-- Contact Header-->
+        <div class="contact-header">
+
+            <!-- Container-->
+            <div class="container clearfix">
+
+                <!-- Contact Details-->
+                <div class="two_fourth">
+
+                    <h3 class="black mb">Contact Details</h3>
+
+                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.
+
+                        <br><br>
+
+                        <span class="color">Keep in touch!</span></p>
+
+                </div>
+                <!--/Contact Details-->
+
+
+                <!-- Contact New York-->
+                <div class="one_fourth">
+
+                    <h3 class="black mb">New York</h3>
+
+                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">newyork@eleven.com</span></p>
+
+                    <br>
+
+                    <p class="black"><strong>( 495 ) 663 287 547</strong></p>
+
+                </div>
+                <!--/Contact New York-->
+
+                <!-- Contact Berlin-->
+                <div class="one_fourth last">
+
+                    <h3 class="black mb">Berlin</h3>
+
+                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">berlin@eleven.com</span></p>
+
+                    <br>
+
+                    <p class="black"><strong>( 495 ) 663 287 547</strong></p>
+
+                </div>
+                <!--/Contact Berlin-->
+
+
+
+            </div>
+            <!--/Container-->
+
+        </div>
+        <!-- Contact Header-->
+
+        <!-- Map-->
+        <div id="map_canvas"></div>
+        <!--End Map-->
+
+        <!-- Contact Form-->
+        <div class="contact-form">
+
+            <!-- Container-->
+            <div class="container clearfix">
+
+                <h2 class="black mb">Send us a message</h2>
+
+                <div id="message"></div>
+
+                <form method="post" action="contact.php" name="contactform" id="contactform">
+
+                    <div class="one_half">
+
+                        <input name="name" type="text" id="name" size="30" onfocus="if(this.value == 'Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Name'; }" value="Name">
+                        <input name="email" type="text" id="email" size="30" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }" value="E-mail">
+                        <input name="phone" type="text" id="phone" size="30" onfocus="if(this.value == 'Phone') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Phone'; }" value="Phone">
+
+                    </div>
+
+                    <div class="one_half last">
+
+                        <textarea name="comments" cols="40" rows="3" id="comments" onfocus="if(this.value == 'Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Message'; }">Message</textarea>
+
+                    </div>
+
+                    <input type="submit" class="send_message" id="submit" value="Submit">
+
+                </form>
+
+            </div>
+            <!--/Container-->
+
+
+
+        </div>
+        <!--/Contact Form-->
+
+    </div>
+    <!--/Contact-->
+
+<?php
+include_once "footer.php";
+?>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="mimame">
+  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="mimame" uploadOnCheckin="905ee6f6-8cb5-4a8d-a339-41e0b7cbb3ab">
     <serverData>
       <paths name="mimame">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="mimame" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
