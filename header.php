@@ -61,7 +61,7 @@
 
 
     <!-- Google map -->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyBwFU9FI6fhXjqw1Ka3ThuevKTQDeWtNM0"></script>
     <!--/Google map -->
 
 
@@ -72,9 +72,6 @@
     <!-- AJAX Contact Form -->
     <script type="text/javascript" src="js/jquery.jigowatt.js"></script>
     <!-- AJAX Contact Form -->
-
-
-
 
 
 </head>

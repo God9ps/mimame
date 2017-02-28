@@ -15,9 +15,11 @@ include_once "menu.php";
         <!-- Container-->
         <div class="container clearfix">
 
-            <h1 class="color mb">About Us</h1>
+            <h1 class="color mb">Sobre nós</h1>
 
-            <p class="big-paragraph">Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.</p>
+            <p class="big-paragraph">MIMAME é o seu cantinho, é onde vai encontrar momentos de descontração e realxamento que tanto procura.
+                É o local onde vai encontrar todos os cuidados para mãos, pés e rosto que vão fazê-la sentir especial, bonita e atraente.
+                </p>
 
 
             <br><br><br>
@@ -25,42 +27,41 @@ include_once "menu.php";
 
             <div class="one_third">
 
-                <h3 class="black mb">Our skills</h3>
+                <h3 class="black mb">Os nossos talentos</h3>
 
 
                 <div class="meter">
-                    <div style="width:75%"><p class="white">Web Design ( 75% )</p></div>
+                    <div style="width:100%"><p class="white">Tratamento das mãos</p></div>
                 </div>
 
 
                 <div class="meter">
-                    <div style="width:60%"><p class="white">Web Development ( 60% )</p></div>
+                    <div style="width:100%"><p class="white">Tratamento dos pés</p></div>
                 </div>
 
 
                 <div class="meter">
-                    <div style="width:85%"><p class="white">Brand Identity ( 85% )</p></div>
+                    <div style="width:100%"><p class="white">Tratamento da pele</p></div>
                 </div>
 
             </div>
 
             <div class="two_third last">
 
-                <h3 class="black mb">Who we are</h3>
+                <h3 class="black mb">Preparada???</h3>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus.<br><br>
-
-                    Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet lectus nisi. In a elit sed velit placerat interdum a quis erat. Sed eget nibh quis turpis venenatis eleifend non eu augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat sollicitudin mauris ut cursus. Phasellus sapien quam, egestas non tempor quis, elementum quis dui. Aliquam erat volutpat. In sit amet</p>
+                <p>Pode começar com um tratamento de pele especial, com os melhores produtos e cuidados, com o qual vai ficar com uma pele limpa, macia e rejuvenescida.
+                De seguido um tratamento completo aos seus pés, retirando calosidades e ficando com pés tão suaves como os de um bébé. Poderá aplicar verniz de gel ou uma das nossas cores (normais, baças ou térmicas).
+                Pode ainda disfrutar de uma manicure perfeita e aplicar unhas de gel com ou sem extensão, e pode ainda transformar as suas mãos numa obra de arte, usufruindo do talento e perícia das nossas especialistas em nail art.
+                <br>Venha visitar-nos.<br><br> Faça a sua <button class="btn-small btn btn-default">marcação</button></p>
 
             </div>
 
         </div>
         <!--/Container-->
 
-        <!-- Our Team-->
-        <div class="ourteam">
+        <!-- Our Team
 
-            <!-- Container-->
             <div class="container clearfix">
 
                 <h1 class="color mb">Meet Our Team</h1>
@@ -69,7 +70,7 @@ include_once "menu.php";
                 <br><br>
 
 
-                <!--Team 1-->
+
                 <div class="team">
 
                     <img class="user" src="images/team1.png" alt="">
@@ -89,10 +90,7 @@ include_once "menu.php";
                     </div>
 
                 </div>
-                <!--/Team 1-->
 
-
-                <!--Team 2-->
                 <div class="team">
 
                     <img class="user" src="images/team2.png" alt="">
@@ -112,10 +110,7 @@ include_once "menu.php";
                     </div>
 
                 </div>
-                <!--/Team 2-->
 
-
-                <!--Team 3-->
                 <div class="team">
 
                     <img class="user" src="images/team3.png" alt="">
@@ -135,10 +130,7 @@ include_once "menu.php";
                     </div>
 
                 </div>
-                <!--/Team 3-->
 
-
-                <!--Team 4-->
                 <div class="team last">
 
                     <img class="user" src="images/team4.png" alt="">
@@ -158,14 +150,14 @@ include_once "menu.php";
                     </div>
 
                 </div>
-                <!--/Team 4-->
+
 
             </div>
-            <!--/Container-->
-
-        </div><!--/Our Team-->
 
 
+        </div>
+
+    -->
     </div><!--/About Us-->
 
 
@@ -177,8 +169,16 @@ include_once "menu.php";
 
         <div class="container">
 
-            <h3 class="white center">You can add</h3>
-            <p style="text-align:center">text or html tags on each separators, or just simply remove it where you want</p>
+            <h1 class="white center">Microblanding</h1>
+            <h3 style="text-align:center">Olhar perfeito com a técnica de preenchimento fio a fio 3D.</h3>
+
+            <div class="price-container pull-right">
+                <div class="price">
+                    <span class="label">Agora apenas</span>
+                    <span class="number">€100</span>
+
+                </div>
+            </div>
 
         </div>
 
@@ -285,8 +285,16 @@ include_once "menu.php";
         <div class="separator2-bg"></div>
 
         <div class="container">
-            <h3 class="white center">You can add</h3>
-            <p class="white" style="text-align:center">text or html tags on each separators, or just simply remove it where you want</p>
+            <h1 class="white center">Unhas de Gel</h1>
+            <h3 style="text-align:center">Unhas bonitas, cuidadas e duradouras.</h3>
+
+            <div class="price-container pull-right">
+                <div class="price">
+                    <span class="label">Agora apenas</span>
+                    <span class="number">€25</span>
+
+                </div>
+            </div>
         </div>
 
     </div>
@@ -528,17 +536,16 @@ include_once "menu.php";
 
         <div class="container clearfix">
 
-            <div class="client"><img src="images/client1.png" alt=""></div>
+            <h1 class="white center">Limpeza de pele</h1>
+            <h3 style="text-align:center">Pele bonita, suave e perfeita com o nosso tratamento.</h3>
 
-            <div class="client"><img src="images/client2.png" alt=""></div>
+            <div class="price-container pull-right">
+                <div class="price">
+                    <span class="label">Agora apenas</span>
+                    <span class="number">€20</span>
 
-            <div class="client"><img src="images/client3.png" alt=""></div>
-
-            <div class="client"><img src="images/client4.png" alt=""></div>
-
-            <div class="client"><img src="images/client5.png" alt=""></div>
-
-            <div class="client"><img src="images/client6.png" alt=""></div>
+                </div>
+            </div>
 
         </div>
 
@@ -553,7 +560,7 @@ include_once "menu.php";
         <!-- Container-->
         <div class="container-news">
 
-            <h1>Stay tuned. Read our news</h1>
+            <h1>Preços e produtos</h1>
 
             <!-- News Carousel-->
             <div class="list_carousel">
@@ -686,13 +693,31 @@ include_once "menu.php";
 
 
     <!--/Separator4-->
+
     <div id="separator4">
 
-        <div class="pattern"></div>
 
         <div class="separator4-bg"></div>
 
+        <div class="container">
+
+            <h1 class="white center">Pack Premium</h1>
+            <h3 style="text-align:center">Mãos, pés e pele... não resista à tentação...</h3>
+
+            <div class="price-container pull-right">
+                <div class="price">
+                    <span class="label">Agora apenas</span>
+                    <span class="number">€50</span>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
+
+
+
     <!--/Separator4-->
 
 
@@ -708,13 +733,13 @@ include_once "menu.php";
                 <!-- Contact Details-->
                 <div class="two_fourth">
 
-                    <h3 class="black mb">Contact Details</h3>
+                    <h3 class="black mb">Contactos</h3>
 
                     <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus. Vivamus elementum se semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae seasne eleifend acenimin viverra quis feugiat a telus.
 
                         <br><br>
 
-                        <span class="color">Keep in touch!</span></p>
+                        <span class="color">Visite-nos</span></p>
 
                 </div>
                 <!--/Contact Details-->
@@ -723,13 +748,13 @@ include_once "menu.php";
                 <!-- Contact New York-->
                 <div class="one_fourth">
 
-                    <h3 class="black mb">New York</h3>
+                    <h3 class="black mb">Lisboa</h3>
 
-                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">newyork@eleven.com</span></p>
+                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">lisboa@mimame.pt</span></p>
 
                     <br>
 
-                    <p class="black"><strong>( 495 ) 663 287 547</strong></p>
+                    <p class="black"><strong>( 351 ) 963 958 684</strong></p>
 
                 </div>
                 <!--/Contact New York-->
@@ -737,9 +762,9 @@ include_once "menu.php";
                 <!-- Contact Berlin-->
                 <div class="one_fourth last">
 
-                    <h3 class="black mb">Berlin</h3>
+                    <h3 class="black mb">Campo Maior</h3>
 
-                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">berlin@eleven.com</span></p>
+                    <p>Nullam dictum felis eu pede mollis pretium. Cras dapibus vivamus<br><span class="color">campomaior@mimame.pt</span></p>
 
                     <br>
 
@@ -766,7 +791,7 @@ include_once "menu.php";
             <!-- Container-->
             <div class="container clearfix">
 
-                <h2 class="black mb">Send us a message</h2>
+                <h2 class="black mb">Entre em contacto</h2>
 
                 <div id="message"></div>
 
@@ -792,8 +817,6 @@ include_once "menu.php";
 
             </div>
             <!--/Container-->
-
-
 
         </div>
         <!--/Contact Form-->

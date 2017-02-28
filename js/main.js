@@ -194,9 +194,9 @@ $(window).load(function() {
 /*===========================================================*/		
 function initialize() {
 
-            var latlng = new google.maps.LatLng(45.738028,21.224535);
+            var latlng = new google.maps.LatLng(38.7076062,-9.1584239);
             var settings = {
-                zoom: 16,
+                zoom: 19,
                 center: latlng,
                 mapTypeControl: false,
 				scrollwheel: false,
@@ -209,30 +209,30 @@ function initialize() {
             var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
-                '<h2 id="firstHeading" class="firstHeading">Eleven Media</h2>'+
+                '<h2 id="firstHeading" class="firstHeading">MIMAME by Ana Garcia</h2>'+
                 '<div id="bodyContent">'+
-                '<p>Here we are. Come to drink a coffee!</p>'+
+                '<p>Estamos aqui, venha visitar-nos</p>'+
                 '</div>'+
                 '</div>';
             var infowindow = new google.maps.InfoWindow({
                 content: contentString
             });
             
-            var companyImage = new google.maps.MarkerImage('images/marker.png',
+           /* var companyImage = new google.maps.MarkerImage('images/marker.png',
                 new google.maps.Size(58,63),
                 new google.maps.Point(0,0),
                 new google.maps.Point(35,20)
-            );
+            );*/
     
             
     
-            var companyPos = new google.maps.LatLng(45.738028,21.224535);
+            var companyPos = new google.maps.LatLng(38.7076062,-9.1584239);
     
             var companyMarker = new google.maps.Marker({
                 position: companyPos,
                 map: map,
-                icon: companyImage,               
-                title:"Eleven Media",
+                // icon: companyImage,
+                title:"MIMAME by Ana Garcia",
                 zIndex: 3});
             
             
